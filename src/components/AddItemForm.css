@@ -1,0 +1,116 @@
+form{
+    margin-top: 2rem;
+    padding: 2rem;
+    max-width: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+form .input{
+    width: 70%;
+    border: solid 3px transparent;
+    background-color: transparent;
+    border-radius: 2px;
+    padding: 1rem 1rem;
+    outline: none;
+    overflow: hidden;
+    margin: 15px;
+    font-size: 2rem;
+    border-bottom: dashed 3px #81BFDA;
+    font-style: italic;
+}
+
+form .input:focus{
+    border: 3px solid #81BFDA;
+}
+
+form .btn{
+    padding:10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #81BFDA;
+    background: transparent;
+    font-size: 2rem;
+    margin-left: 10px;
+    transition: 1s;
+    font-weight: 800;
+    font-style: italic;
+}
+
+form .btn:hover{
+    background: #9EDF9C;
+    color: #FAF6E3;
+    transform: translateY(4px);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    text-align: left;
+    font-size: 2rem;
+    font-style: italic;
+    color: #81BFDA;
+    font-weight: 600;
+}
+
+li .delete{
+    margin-left: 20rem;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #81BFDA;
+    transition: 1s;
+    text-align: right;
+}
+
+li .delete:hover{
+    background-color: #FA4032;
+    color: #FAF6E3;
+    transform: translateY(4px);
+}
+
+@media only screen and (max-width:700px){
+    form{
+        width: 400px;
+    }
+    form .input{
+        font-size: 1.5rem;
+    }
+    form .btn{
+        font-size: 1.5rem;
+    }
+    li .delete{
+        margin: 1rem;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+}
+@media only screen and (max-width:475px){
+    form{
+        width: 300px;
+    }
+    form .input{
+        font-size: 1rem;
+    }
+    form .btn{
+        font-size: 1rem;
+    }
+    li .delete{
+        margin: 0.5rem;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+}
+

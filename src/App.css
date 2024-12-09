@@ -1,0 +1,40 @@
+.card{
+    width: 800px;
+    margin: 5rem auto;
+    border: 1px solid #F5F0CD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #F5F0CD;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+h1{
+    color: #FADA7A;
+    font-style: italic;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+    padding: 2rem;
+    background-color: #81BFDA;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width:900px){
+    .card{
+        width: 600px;
+    }
+}
+@media only screen and (max-width:700px){
+    .card{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:475px){
+    .card{
+        width: 300px;
+    }
+}
